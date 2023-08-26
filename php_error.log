@@ -1,0 +1,154 @@
+[04-Mar-2021 14:38:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\dialog\tmCertDialog.php(42): Process->query('SELECT * FROM s...')
+#2 G:\PleskVhosts\jetrordstaffing.com\httpdocs\dialog\tmCertDialog.php(66): getTmCert(Object(Process), '-')
+#3 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[04-Mar-2021 14:38:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\dialog\tmCertDialog.php(42): Process->query('SELECT * FROM s...')
+#2 G:\PleskVhosts\jetrordstaffing.com\httpdocs\dialog\tmCertDialog.php(66): getTmCert(Object(Process), '-')
+#3 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[04-Mar-2021 14:38:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\dialog\tmCertDialog.php(42): Process->query('SELECT * FROM s...')
+#2 G:\PleskVhosts\jetrordstaffing.com\httpdocs\dialog\tmCertDialog.php(66): getTmCert(Object(Process), '-')
+#3 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[04-Mar-2021 14:38:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '&& comTblId = - && execOnly = false ORDER BY comTime DESC' at line 1 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\dialog\showComDialog.php(31): Process->query('SELECT * FROM s...')
+#2 G:\PleskVhosts\jetrordstaffing.com\httpdocs\dialog\showComDialog.php(84): getComments('branch', '-', '-')
+#3 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[04-Mar-2021 14:38:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '&& comTblId = - && execOnly = false ORDER BY comTime DESC' at line 1 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\dialog\showComDialog.php(31): Process->query('SELECT * FROM s...')
+#2 G:\PleskVhosts\jetrordstaffing.com\httpdocs\dialog\showComDialog.php(84): getComments('branch', '-', '-')
+#3 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[04-Mar-2021 14:38:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\dialog\tmCertDialog.php(42): Process->query('SELECT * FROM s...')
+#2 G:\PleskVhosts\jetrordstaffing.com\httpdocs\dialog\tmCertDialog.php(66): getTmCert(Object(Process), '-')
+#3 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[04-Mar-2021 14:38:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\dialog\tmCertDialog.php(42): Process->query('SELECT * FROM s...')
+#2 G:\PleskVhosts\jetrordstaffing.com\httpdocs\dialog\tmCertDialog.php(66): getTmCert(Object(Process), '-')
+#3 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[04-Mar-2021 14:38:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '&& comTblId = 110 ORDER BY comTime DESC' at line 1 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\dialog\showComDialog.php(31): Process->query('SELECT * FROM s...')
+#2 G:\PleskVhosts\jetrordstaffing.com\httpdocs\dialog\showComDialog.php(84): getComments('exec', '110', '-')
+#3 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[04-Mar-2021 14:39:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '&& comTblId = 110 ORDER BY comTime DESC' at line 1 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\dialog\showComDialog.php(31): Process->query('SELECT * FROM s...')
+#2 G:\PleskVhosts\jetrordstaffing.com\httpdocs\dialog\showComDialog.php(84): getComments('exec', '110', '-')
+#3 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[04-Mar-2021 14:39:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\dialog\tmCertDialog.php(42): Process->query('SELECT * FROM s...')
+#2 G:\PleskVhosts\jetrordstaffing.com\httpdocs\dialog\tmCertDialog.php(66): getTmCert(Object(Process), '-')
+#3 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[05-Mar-2021 11:39:56 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') && posStatus = 'In Training' && position IS NOT NULL ORDER BY branchNum' at line 3 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\pages\execInfo.php(122): Process->query('SELECT id, bran...')
+#2 G:\PleskVhosts\jetrordstaffing.com\httpdocs\pages\execInfo.php(250): getInfoArray('', Array)
+#3 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[05-Mar-2021 17:40:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\gets\execSideBar.php(20): Process->query('SELECT * FROM s...')
+#2 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[05-Mar-2021 17:40:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\gets\execSideBar.php(20): Process->query('SELECT * FROM s...')
+#2 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[05-Mar-2021 11:40:28 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') && posStatus = 'Open' && position IS NOT NULL ORDER BY branchNum' at line 3 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\pages\execInfo.php(122): Process->query('SELECT id, bran...')
+#2 G:\PleskVhosts\jetrordstaffing.com\httpdocs\pages\execInfo.php(250): getInfoArray('', Array)
+#3 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[05-Mar-2021 17:41:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\gets\execSideBar.php(20): Process->query('SELECT * FROM s...')
+#2 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[05-Mar-2021 11:41:14 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') && posStatus = 'Open' && position IS NOT NULL ORDER BY branchNum' at line 3 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\pages\execInfo.php(122): Process->query('SELECT id, bran...')
+#2 G:\PleskVhosts\jetrordstaffing.com\httpdocs\pages\execInfo.php(250): getInfoArray('', Array)
+#3 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[05-Mar-2021 17:46:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\gets\execSideBar.php(20): Process->query('SELECT * FROM s...')
+#2 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[05-Mar-2021 11:46:14 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') && posStatus = 'Open' && position IS NOT NULL ORDER BY branchNum' at line 3 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\pages\execInfo.php(122): Process->query('SELECT id, bran...')
+#2 G:\PleskVhosts\jetrordstaffing.com\httpdocs\pages\execInfo.php(250): getInfoArray('', Array)
+#3 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[05-Mar-2021 17:51:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\filters\filterBranchList.php(14): Process->query('SELECT branchNu...')
+#2 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[05-Mar-2021 12:38:16 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') && posStatus = 'Open' && position IS NOT NULL ORDER BY branchNum' at line 3 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\pages\execInfo.php(122): Process->query('SELECT id, bran...')
+#2 G:\PleskVhosts\jetrordstaffing.com\httpdocs\pages\execInfo.php(250): getInfoArray('', Array)
+#3 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[05-Mar-2021 18:38:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\gets\execSideBar.php(20): Process->query('SELECT * FROM s...')
+#2 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[05-Mar-2021 18:38:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\gets\execSideBar.php(20): Process->query('SELECT * FROM s...')
+#2 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
+[05-Mar-2021 12:38:48 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') && posStatus = 'Open' && position IS NOT NULL ORDER BY branchNum' at line 3 in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php:70
+Stack trace:
+#0 G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php(70): PDOStatement->execute(NULL)
+#1 G:\PleskVhosts\jetrordstaffing.com\httpdocs\pages\execInfo.php(122): Process->query('SELECT id, bran...')
+#2 G:\PleskVhosts\jetrordstaffing.com\httpdocs\pages\execInfo.php(250): getInfoArray('', Array)
+#3 {main}
+  thrown in G:\PleskVhosts\jetrordstaffing.com\httpdocs\class\Process.php on line 70
