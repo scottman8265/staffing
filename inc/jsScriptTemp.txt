@@ -1,0 +1,13 @@
+<script src="<?php echo $jqueryJS; ?>"></script>
+<script src="<?php echo $jqueryUiJS; ?>"></script>
+<script src="<?php echo $popperJS; ?>"></script>
+<script src="<?php echo $bootstrapJS; ?>"></script>
+<script src="<?php echo $select2JS; ?>"></script>
+<script src="<?php echo $tiltJS; ?>"></script>
+
+<script >
+    $('.js-tilt').tilt({
+        scale: 1.1
+    })
+</script>
+<script src="<?php echo $mainJS?>"></script>
