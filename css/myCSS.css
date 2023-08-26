@@ -1,0 +1,525 @@
+
+#tableView {
+    display: none;
+    width: 60%;
+    height: calc(100vh - 50px);
+    position: relative;
+    float: left;
+    background-color: #dad55e;
+}
+
+#statsBar {
+    display: none;
+    width: 20%;
+    height: 100vh;
+    top: -50px;
+    background-color: #ffcc66;
+    position: relative;
+    float: left;
+    padding: 10px 5px;
+}
+
+#todoBar {
+    display: none;
+    width: 20%;
+    height: calc(100% - 50px);
+    background-color: #ffcc66;
+    position: relative;
+    float: left;
+    padding: 10px 5px;
+}
+
+
+.myContainer {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+
+    background: #009bff;
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+    background: -o-linear-gradient(left, #0072ff, #00c6ff);
+    background: -moz-linear-gradient(left, #0072ff, #00c6ff);
+    background: linear-gradient(left, #0072ff, #00c6ff);
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.myWrapper {
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+    height: 100%;
+    font-size: smaller;
+    align-items:center;
+    text-align: center;
+}
+
+.contentDialogWrapper {
+    width:100%;
+    height:100%;
+    padding: 10px 5px;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+.test {
+    border: 1px solid black;
+}
+
+.error {
+    border: 1px solid red;
+    color: red;
+}
+
+#execHeader {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+}
+
+#modHeader {
+    text-align: center;
+    height: 50px;
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+
+li:hover {
+    background-color: lightblue;
+}
+
+li {
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 2px;
+}
+
+.accordion {
+    position: relative;
+}
+
+.accordion > div {
+    display: none;
+}
+
+.accordion:hover > div {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 250px;
+    text-align: center;
+}
+
+.accordionHeader {
+    width: 150px;
+    margin-bottom: 2px;
+}
+
+.hideYoverflow {
+    overflow-y: hidden;
+}
+
+.changeable:hover {
+    border: 1px solid blue;
+    box-shadow: 2px 2px black inset;
+    background-color: yellow;
+}
+
+.change {
+    width: 24px;
+    height: 24px;
+    float: left;
+    background: url(../images/icons/change.png) no-repeat right bottom;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 10px 10px;
+}
+
+.change {
+    width: 24px;
+    height: 24px;
+    float: left;
+    background: url(../images/icons/change.png) no-repeat right bottom;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 10px 10px;
+}
+
+.branchValInput {
+    margin-top: -20px;
+}
+
+.branchInfoWrapper {
+    width: 100%;
+    position: relative;
+}
+
+.branchValLabel {
+    text-align: center;
+}
+
+.branchValOptions {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.changePinContainer {
+    border-radius: 10px;
+}
+
+.select {
+    margin: 0 5px 10px 5px;
+    padding: 5px;
+    height: 40px;
+    width: 100%;
+}
+
+#reasons {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.submitBtnWrap {
+    width: 100%;
+    margin: 0 0 10px 0;
+    height: 75px;
+    position: relative;
+}
+
+
+.nameInput {
+    margin: 0 10px;
+}
+
+.icon:hover {
+    background-color: lightcyan;
+    border-radius: 15px;
+}
+
+.iconWrapper.row {
+    margin: 0;
+}
+
+.icon.col-md-6 {
+    padding: 0;
+}
+
+.brFilterInputWrap {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    font-size: smaller;
+    margin-bottom: 5px;
+}
+
+.brFilterInputWrap button {
+    width: 20%;
+}
+
+.brFilterInputWrap input {
+    width: 60%;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 0 4px;
+}
+
+.brFilterBtn {
+    height: 30px;
+    font-size: smaller;
+}
+
+.brFilterCont {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    margin: 5px 0;
+    border-top: 1px solid lightgray;
+    padding-top: 7px;
+}
+
+.brFilterWrapCont {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.brFilterWrap {
+    width: 100%;
+    height: calc(100% - 37px);
+    overflow: auto;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.brFilterData {
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+}
+
+.brFilterList {
+    width: 100%;
+}
+
+.brFilterRow {
+    width: 100%;
+    margin: 5px;
+}
+
+.brFilterRow.selected {
+    background-color: lemonchiffon;
+}
+
+.brFilterHeader {
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+
+.brFilterHeader span {
+    width: 25%;
+    font-size: larger;
+    padding-top: 5px;
+    height: 100%;
+}
+
+.brFilterHeader button {
+    width: 60%;
+}
+
+button.selectAll {
+    float: right;
+    font-size: smaller;
+}
+
+.updateDialogHTML {
+    padding: 5px;
+}
+
+#submitUpdate {
+    top: 23px;
+    position: relative;
+}
+
+.tmCertContainer {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 7px 5px;
+}
+
+.tmCertHeader {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tmCertWrapper {
+    width: 100%;
+    height: calc(100% - 45px);
+    overflow: auto;
+    margin-top: 10px;
+
+}
+
+.tmCertRow {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid lightgray;
+}
+
+.tmCertCell {
+    width: 25%;
+    border: 1px solid #ffffff;
+
+}
+
+.tmCertSubmit {
+    width: 30%;
+    height: 100%;
+}
+
+.tmCertOptions {
+width: 60%;
+height:100%;
+}
+
+.tmCertData {
+height:fit-content;
+    width:100%;
+}
+
+.certName {
+
+}
+
+.certIssuer {
+    max-width: 150px;
+
+}
+
+.certAcq {
+
+}
+
+.certExp {
+
+}
+
+.addCertContainer {
+    width:100%;
+    height:100%;
+}
+
+.addCertFooter {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 30px;
+    margin-top: 12px;
+}
+
+.addCertHeader {
+    width:100%;
+    height: 50px;
+    text-align: center;
+}
+
+.addCertHeader p {
+    margin:0;
+}
+
+.addCertWrapper {
+    width: 100%;
+    height: fit-content;
+    overflow: auto;
+    border:1px solid lightblue;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+.addCertData {
+    height:fit-content;
+}
+
+.addCertData .branchInfoWrapper{
+    margin:5px 0;
+}
+
+.tableViewBtns {
+    position: absolute;
+    top: -43px;
+    right: -315px;
+    height: 50px;
+}
+
+.filterable {
+    position:absolute;
+    background-image:url("../images/icons/filterIcon.png");
+    background-size:cover;
+    width:16px;
+    height:16px;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.center {
+    text-align: center;
+}
+
+.half {
+    width: 50%;
+}
+
+.full {
+    width: 100%;
+}
+
+.third {
+    width: 33%;
+}
+
+.fourth {
+    width:25%;
+}
+
+span.copy {
+    width: 35px;
+    height: 100%;
+    position: relative;
+    float: right;
+    background-color: #00c6ff;
+}
+
+.wklySftyTpWrapper {
+    width:100%;
+    height:fit-content;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.wklySftyTpWkNum {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2px;
+    border-bottom: 1px solid lightgray;
+}
+
+.wklySftyTpWkNum .arrowIcon {
+    width: 50px;
+    top: 6px;
+    position: relative;
+}
+
+.wklySftyTpWkNum .wkNum {
+    font-size: xx-large;
+}
+
+.wklySftyTpWkComments {
+    margin: 10px 5px;
+}
+
+input.wklySftyTipCom {
+    width: 100%;
+    height: 100px;
+    margin:auto;
+}
+
+.wklySftyTipBtns {
+    border-top: 1px solid lightgray;
+    padding: 10px;
+}
+
+select {
+    height: 40px;
+}
+
+.fit {
+    height: fit-content;
+}

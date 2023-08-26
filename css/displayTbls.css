@@ -1,0 +1,96 @@
+tr, th, td {
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#execToDoTbl td, #execToDoTbl th {
+    padding:5px;
+}
+
+#tableWrapper {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+table.paleBlueRows {
+    table-layout: fixed;
+    padding: 0 30px;
+    background-color: #00c6ff;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    border-collapse: collapse;
+    height: 100%;
+    width: 100%;
+}
+
+table.paleBlueRows td, table.paleBlueRows th {
+    border: 1px solid #FFFFFF;
+    padding: 3px 2px;
+    width: calc(100% / 10);
+}
+
+table.paleBlueRows tbody td {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+table.paleBlueRows tr:nth-child(even) {
+    background: #D0E4F5;
+}
+
+table.paleBlueRows thead {
+    background: #0B6FA4;
+    top: 50px;
+    height: 60px;
+    width: 100%;
+}
+
+table.paleBlueRows tfoot {
+    border-bottom: 5px solid #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    background: #D0E4F5;
+    border-top: 3px solid #444444;
+    width: 100%;
+}
+
+table.paleBlueRows tbody {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: calc(100% - 50px);
+    position: absolute;
+    width: 100%;
+}
+
+table.paleBlueRows thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #FFFFFF;
+}
+
+table.paleBlueRows thead th:first-child {
+    border-left: none;
+}
+
+.menu, .changeable, .sort, li {
+    cursor: pointer;
+}
+
+td.execOnly {
+    color: red;
+    font-weight: bold;
+}
+
+table.downloadedTable tr, table.downloadedTable td {
+    border: 1px solid black;
+}
+
+table.toDoTbl th, table.toDoTbl td {
+    width:25%;
+}

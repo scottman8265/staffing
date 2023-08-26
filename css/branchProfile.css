@@ -1,0 +1,181 @@
+.add {
+    background: url(../images/icons/blueUp.png) no-repeat center;
+
+}
+
+.subtract {
+    background: url(../images/icons/blueDown.png) no-repeat center;
+}
+
+.branchProfWrap {
+    width: 100%;
+    height: calc(100% - 40px);
+    overflow: auto;
+}
+
+.branchProfData {
+    width: 100%;
+    height: fit-content;
+}
+
+.branchProfInfoWrap {
+    width: 100%;
+    height: fit-content;
+}
+
+.branchProfRow {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2px;
+    border-bottom: 1px solid lightgray;
+}
+
+.branchProfCont {
+    width: 100%;
+    height: 415px;
+    overflow: hidden;
+    position: relative;
+}
+
+.arrowIcon {
+    width: 40%;
+    height: 32px;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    background-color: lightyellow;
+    flex-grow: 1;
+}
+
+.arrowIcon:hover {
+    background-color: lightgray;
+}
+
+.bProfSubmit {
+    float: left;
+}
+
+.branchProfHeadText {
+    width: 100%;
+    text-align: center;
+}
+
+.branchProfHeadBtn {
+    width: 100%;
+    object-position: center;
+}
+
+.branchProfHead {
+    height: 40px;
+    padding: 2px;
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+}
+
+.verifyProfCont {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+}
+
+.branchProfChangeCont {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.branchProfChangeFlowWrap {
+    width: 100%;
+    height: 320px;
+    overflow: auto;
+}
+
+.branchProfChangeContHead {
+    height: 50px;
+}
+
+.branchProfSubtext {
+    margin: 0;
+}
+
+.branchProfChangeHeader {
+    width: 90%;
+    margin: 0 5%;
+    border-bottom: 1px solid black;
+}
+
+.branchProfChangeRow {
+
+}
+
+.branchProfChangeText {
+    text-align: center;
+    margin: 0;
+}
+
+.branchProfChangeWrap {
+    overflow: auto;
+    height: fit-content;
+    width: 100%;
+}
+
+.branchProfChangeHeadText {
+    font-size: larger;
+    text-align: center;
+    margin: 0;
+}
+
+.branchProfChangeHeaderText {
+    margin: 0;
+    height: 50px;
+}
+
+.branchVerifyProfBtnRow {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.posInfo {
+    width: 30%;
+    height: 100%;
+    padding: 2px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.posName {
+    width: 70%;
+    height: 100%;
+    position: relative;
+    font-size: larger;
+    padding: 0 20px;
+    white-space: nowrap;
+}
+
+.posCount {
+    width: 60%;
+    position: relative;
+    font-size: larger;
+    text-align: center;
+    margin-right: 10px;
+    flex-grow: 2;
+    text-align: center;
+}
+
+.branchProfileIcon {
+    width: 32px;
+    height: 100%;
+    float: left;
+}
+
+.branchInfoWrap {
+    width: calc(100% - 32px);
+    float: right;
+}

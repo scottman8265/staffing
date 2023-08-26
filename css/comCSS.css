@@ -1,0 +1,182 @@
+.comContainer {
+    width: 500px;
+    max-height: calc(100vh - 100px);
+    overflow: auto;
+    padding: 3px;
+    border: 1px solid orange;
+}
+
+.writeContainer {
+    width: 100%;
+}
+
+.container h1 {
+    margin: 0;
+}
+
+.comWrapper.new {
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 5px;
+}
+
+.comWrapper.reply {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0 10px 10%;
+    background-color: lightblue;
+}
+
+.comHeader {
+    height: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.comment {
+    margin: 10px 2px;
+    height: auto;
+    padding: 5px;
+    text-align: left;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    word-wrap: break-word;
+}
+
+.comFooter {
+    height: 50px;
+    padding: 5px;
+    margin: 15px 15px 5px 15px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.comBtn {
+    width: 20%;
+    height: 30px;
+}
+
+.comBtn span {
+    margin: auto;
+}
+
+.comContainer p {
+    margin: 0px;
+    padding: 2px;
+}
+
+.comBy {
+    text-align: left;
+    color: gray;
+}
+
+.comTime {
+    text-align: right;
+    color: gray;
+}
+
+.commentWrapper {
+    height: calc(100% - 100px);
+    width: 100%;
+    position: relative;
+}
+
+.commentContainer {
+    height: 100%;
+    overflow: auto;
+}
+
+.comments {
+    height: fit-content;
+}
+
+.addCommentBtn {
+    width: 30%;
+}
+
+.addComment {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.addCommentBtn {
+    width: 30%;
+}
+
+.commentText {
+    width: 100%;
+    height: 175px;
+    margin: 10px 0;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.dialogCommentWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.showComDialog {
+    overflow: hidden;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 50%;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #2196F3;
+}
+
+/* Style the tab content */
+.noExecOnly {
+    border: 1px solid #ccc;
+}
+
+.comExecOnly {
+    border: 1px solid red;
+}
+
+.tabContent {
+    display: none;
+    padding: 6px 12px;
+}
+
+.tabContent.active {
+    display: block;
+}

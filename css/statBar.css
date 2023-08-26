@@ -1,0 +1,160 @@
+
+
+#statBarWrapper, #todoBarWrapper {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 2px 5px;
+    background-color: #4daacf;
+}
+
+#scrollableStatWrap {
+    width:100%;
+    position:relative;
+    overflow: auto;
+    height: calc(100% - 255px);
+}
+
+#execStatsSection {
+    padding:5px;
+}
+#filtersSection {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 5px;
+    width:100%;
+    height:180px;
+}
+
+#execToDoSection, #execTRSection {
+    padding:5px;
+}
+
+#execToDoWrap {
+    align-content: center;
+}
+
+#statBarHeader {
+    width: 100%;
+    height: 75px;
+    padding: 5px 0;
+}
+
+#filtersHeader {
+    width: 100%;
+    position: relative;
+}
+
+#execStatsHeader {
+    width: 100%;
+}
+
+#branchStatsHeader {
+    text-align: center;
+}
+
+.statBarBtn {
+
+}
+
+.statBtmBorder {
+    border-bottom: 1px dashed lightyellow;
+
+}
+
+.filterRow {
+    position: relative;
+    /*height: fit-content;*/
+    padding-right: 1px;
+    font-size: smaller;
+    text-align: center;
+    border: 1px solid yellow;
+}
+
+.branchStatRow {
+    height: 40px;
+    text-align: center;
+    padding: 2px;
+    font-size: small;
+}
+
+.filterCell {
+    width: 100%;
+    margin: 0;
+    white-space: nowrap;
+    min-height: 20px;
+}
+
+.filterCell.top {
+    border-bottom: 1px solid lightgray;
+    font-weight: 500;
+}
+
+.filterCellWrapper {
+    width: calc(100% - 24px);
+    height: 100%;
+    float: left;
+}
+
+.change {
+    width: 24px;
+    height: 100%;
+    float: left;
+    background: url(../images/icons/change.png) no-repeat right center;
+    position: absolute;
+    margin: 0 5px;
+}
+
+.execStatCell.title {
+    height: 40px;
+    border-bottom: 1px solid lightgray;
+}
+
+.branchStatCell.title {
+    height: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.execStatCell.count {
+    height: 20px;
+    position: relative;
+}
+
+.branchStatCell.count {
+    height: 20px;
+    position: relative;
+}
+
+.execStats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.branchStats {
+    display: flex;
+    height: 45px;
+}
+
+.execStatRow {
+    height: 80px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid yellow;
+    font-size: smaller;
+}
+
+.branchStatRow {
+    height: fit-content;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid yellow;
+}
+
+span.info {
+width: 100%;
+font-size: larger;
+}
