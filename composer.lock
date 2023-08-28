@@ -1,4 +1,12 @@
 {
+    "name" : "scriptjet/staffing",
+    "description": "Just a Simple Staffing Program was working on before discovered Power Automate",
+    "license": "GPL-3.0-or-later",
+    "authors":[{
+        "name": "scriptjet",
+        "email": "scriptjet@scri.ptjet.com",
+        "role": "developer"
+    }],
     "_readme": [
         "This file locks the dependencies of your project to a known state",
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
